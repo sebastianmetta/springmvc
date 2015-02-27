@@ -20,4 +20,12 @@ public class UserService {
 		return userDao.list();
 	}
 	
+	public void saveUser(User user) {
+		userDao.save(user);
+	}
+
+	public User getUser(String username) {
+		userDao.getByName(username);
+		return null;
+	}
 }

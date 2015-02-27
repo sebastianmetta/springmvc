@@ -25,7 +25,7 @@ public class IndexController {
 	@RequestMapping({"/","/index"})
 	 public String showIndexPage(Map<String, Object> model) {
 	 //This method handles requests whose path is either / or /home.
-	 //Args could be anithing such as Http request, response, String, etc.
+	 //Args could be anything such as Http request, response, String, etc.
 	 model.put("users", userService.listUsers());
 	 //Returns the logical name of the view that should render the result,
 	 //wich ViewResolver solves.
