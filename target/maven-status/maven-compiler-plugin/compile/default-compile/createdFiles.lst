@@ -1,6 +1,6 @@
-com\seba\service\UserService.class
-com\seba\dao\UserDao.class
 com\seba\model\User.class
-com\seba\controller\IndexControllerTest.class
-com\seba\controller\IndexController.class
 com\seba\dao\UserDaoImpl.class
+com\seba\controller\IndexControllerTest.class
+com\seba\dao\UserDao.class
+com\seba\service\UserService.class
+com\seba\controller\IndexController.class

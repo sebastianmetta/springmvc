@@ -27,7 +27,6 @@ public class IndexController {
 	 //This method handles requests whose path is either / or /home.
 	 //Args could be anithing such as Http request, response, String, etc.
 	 model.put("users", userService.listUsers());
-	 System.out.println("users:" + model.get("users").toString());
 	 //Returns the logical name of the view that should render the result,
 	 //wich ViewResolver solves.
 	 return "index";
